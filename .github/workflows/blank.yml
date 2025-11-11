@@ -42,5 +42,8 @@ jobs:
       - name: Activate venv
         run: source ./venv/bin/activate
 
-      - name: Install some package with pip
+      - name: Install Jupyterlab
         run: python -m pip install jupyterlab
+
+      - name: Install Notebook
+        run: python -m pip install notebook
